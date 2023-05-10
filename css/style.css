@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+/* ========== header css ============= */
+.header_banner {
+    height: 747px;
+    max-width: 1920px;
+    background: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header_logo img {
+    padding: 30px 0;
+}
+
+.header_devider {
+    border-bottom: 2px solid #505369;
+}
+.manu ul {
+}
+.manu ul li {
+    padding-left: 56px;
+}
+.manu ul li a {
+    color: #d8d8db;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header_banner_text {
+    margin: 0 0;
+    padding: 125px 208px;
+    text-align: center;
+}
+
+.header_banner_text h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.header_banner_text p {
+    padding: 12px 0;
+    color: #8b8c98;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.header_banner_text a {
+    background-color: #e84545;
+    padding: 15px 45px;
+    color: #fbe2e2;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+/* ========== header css end ============ */
+
+/* ============= services css =============== */
+.service {
+    padding: 115px 0;
+}
+
+.service_text {
+    text-align: center;
+    padding: 35px 25px;
+}
+
+.service_title {
+    padding: 26px 0;
+    color: #2d3033;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service_description {
+    color: #6c7279;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+/* ========== services css end ========= */
+
+/* ========== gallery css ========= */
+
+.gallery .image {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+.gallery {
+    position: relative;
+    overflow: hidden;
+}
+.gallery img {
+    width: 25%;
+    height: 355px;
+    padding: 1px;
+}
+.gallery .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(232, 82, 79, 59);
+}
+.gallery .caption {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gallery:hover {
+    transform: translateY(-4px);
+}
+.img_container:hover .overlay {
+    opacity: 1;
+}
+
+.gallery .caption h4 {
+    color: #fcf5f5;
+    font-size: 14px;
+    font-weight: 700;
+}
+.gallery .caption h5 {
+    color: #faecec;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ========== gallery css  end ========= */
+
+/* ========== about css ========= */
+
+.about {
+    padding: 100px 0;
+}
+.about .about_text h3 {
+    padding-top: 32px;
+    font-size: 22px;
+    color: #454749;
+}
+
+.about .about_text h4 {
+    padding-bottom: 17px;
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.about .about_text p {
+    font-size: 14px;
+    color: #6c7279;
+    font-weight: 400;
+}
+
+.about .social_media .facebook {
+    padding: 3% 6%;
+}
+.about .social_media a {
+    font-size: 22px;
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+    padding: 3% 5%;
+}
+
+/* ========== end about css ========= */
+
+/* ========== slider css ========= */
+/* .slider_image{
+    float: left;
+}
+.slider_text{
+    background-color: #53354a;
+    height: 500px;
+    float:left;
+    padding-right: 6.5%;
+} */
+
+.about_slider {
+    background-color: #53354a;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about_slider img {
+    height: 500px;
+}
+.slider_text p {
+    color: #fefefe;
+    font-size: 36px;
+    font-family: "Cardo", serif;
+    padding-top: 110px;
+}
+.slider_text span {
+    color: #fefefe;
+    font-size: 13px;
+    padding-top: 110px;
+}
+/* ========== end slider css ========= */
+
+/* ========== download css ========= */
+.download_section {
+    padding: 100px 0;
+    text-align: center;
+}
+.download_section .download_text h3 {
+    color: #7b7c7d;
+    font-size: 28px;
+    font-weight: 600;
+}
+.download_section .download_text span {
+    color: #2d3033;
+    font-size: 13px;
+    font-weight: 700;
+}
+.download_section .download_button {
+    padding-top: 50px;
+}
+.download_section .download_button a {
+    padding: 15px 80px;
+    background-color: #e84545;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ========== end download css ========= */
+
+/* ========== footer css ========= */
+
+.footer_about {
+    background-color: #3a3e64;
+    padding: 65px 0;
+}
+.copyright_area {
+    background-color: #313454;
+    padding: 25px 0;
+}
+.location h4,
+.share h4,
+.about_us h4{
+    font-size: 14px;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.share .social_link{
+    padding-top: 1rem;
+}
+.location span,
+.location p{
+    color: #afb0bc;
+    font-size: 14px;
+}
+
+.about_us p{
+    color: #afb0bc;
+    font-size: 14px;
+}
+
+.share .social_link a{
+    font-size: 20px;
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+    padding: 9px 13px;
+}
+
+.copyRight_text span{
+    font-size: 14px;
+    color: #7c7c7d;
+}
+
+.copyRight_text p{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.copyRight_text .fa-heart{
+    font-size: 14px;
+    color: #e84545;
+}
+
+/* ========== end footer css ========= */
